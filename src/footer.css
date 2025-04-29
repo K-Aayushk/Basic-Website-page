@@ -1,0 +1,24 @@
+.footer-container{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(40, 39, 39);
+    margin-top: 50px;
+}
+.footer-container h3{
+    color: white;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background:none;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.footer-container p{
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    top: -25px;
+}

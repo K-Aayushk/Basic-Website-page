@@ -1,0 +1,84 @@
+.navbar-heading{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+}
+
+.navbar-heading img{
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    padding: 0%;
+    background:none;
+    cursor: pointer;
+}
+.navbar-heading h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0%;
+    background: none;
+    cursor: pointer;
+}
+.listitems-container{
+    height: 25px;
+    width: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 600px;
+    background: none;
+    
+}
+.listitems-container .list-items-ul{
+    float: left;
+    display: flex;
+    background: none;
+
+}
+.listitems-container .list-items-ul .listitems{
+    padding: 20px;
+    list-style-type: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: none;
+    
+}
+.listitems-container .list-items-ul .listitems:hover{
+    border-color: inherit;
+    background-color: rgb(28, 27, 27);
+    font-size: 110%;
+}
+.input-container{
+    background: none;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+.input-container input{
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-container button{
+    background-color: rgb(17, 17, 17);
+    width: 100px;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,49 @@
+.body-container{
+    background-color: rgb(34, 33, 33);
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.slide-body-container{
+    height: inherit;
+    width: 50%;
+    border-radius: 20px;
+}
+.namelogin{
+    background: none;
+}
+.namelogin h3{
+    background: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.namelogin input{
+    width: 80%;
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.namelogin button{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 35px;
+    color: white;
+    background-color: rgb(43, 42, 42);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.namelogin input:active{
+    background-color: white;
+}
